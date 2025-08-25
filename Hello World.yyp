@@ -44,6 +44,7 @@
     {"id":{"name":"sprColetavel","path":"sprites/sprColetavel/sprColetavel.yy",},},
     {"id":{"name":"sprFundo","path":"sprites/sprFundo/sprFundo.yy",},},
     {"id":{"name":"sprInimigo","path":"sprites/sprInimigo/sprInimigo.yy",},},
+    {"id":{"name":"sprInimigo2","path":"sprites/sprInimigo2/sprInimigo2.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprPlayerAndando","path":"sprites/sprPlayerAndando/sprPlayerAndando.yy",},},
   ],

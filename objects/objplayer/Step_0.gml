@@ -1,10 +1,14 @@
 if keyboard_check(vk_left) and x - velocidade > 0{
 	x -= velocidade
-	image_xscale = 1
+	if image_xscale >0{
+	 image_xscale *= -1
+	}
 }
 if keyboard_check(vk_right) and x - velocidade < room_width {
-	 x += velocidade
-	 image_xscale = -1
+	x += velocidade
+	if image_xscale >0{
+	 image_xscale *= -1
+	}
 	 
 }
 
@@ -28,9 +32,12 @@ if keyboard_check(vk_anykey){
 	 sprite_index = sprPlayer
  }
  
- if pontos == 17{
-	 room = rmFase2
+ if pontos == 8 and room != rmFase2{
+	 room_goto_next()
  }
+ else if pontos == 8 and room == rmFase2{
+	 room = rmFase1
+ } 
  
  
 

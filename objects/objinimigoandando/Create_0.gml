@@ -1,2 +1,2 @@
-movimentoX = random_range(-1, 1)
-movimentoY = random_range(-1, 1)
+movimentoX = random_range(-3, 3)
+movimentoY = random_range(-3, 3)
